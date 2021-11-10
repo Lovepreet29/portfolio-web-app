@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- viewport meta tag for initial zoom -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!--  JQM is not compatible with jQuery 3.x yet. Stick with 1.x - 2.x -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+
+  <title>My JQM Site</title>
+</head>
+
+<body class=" ui-nosvg">
+  <!-- Home Page -->
+  
+  <div data-role="page" id="home" data-theme="a">
+    <div data-role="header">
+      <h1>COMICS</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" data-role="button" class="ui-btn-active">Home</a></li>
+        <li><a href="#categories" data-role="button" data-transition="fade">Categories</a></li>
+        <li><a href="#marvel" data-role="button" data-transition="slide">Marvel</a></li>
+        <li><a href="#dc" data-role="button" data-transition="flow">DC</a></li>
+        <li><a href="#contact" data-role="button" data-transition="flip">Contact</a></li>
+      </ul>
+    </div>
+    <!--content-->
+    <div role="main" class="ui-content">
+      <h2>What are Comics?</h2>
+      <img src="img/comic.jpg" style="max-width:350px" alt="comic-main">
+      <p>
+        Comics is a medium used to express ideas with images, often combined with text or other visual information.
+        It typically takes the form of a sequence of panels of images. Textual devices such as speech balloons,
+        captions, and
+        onomatopoeia can indicate dialogue, narration, sound effects, or other information. The size and arrangement of
+        panels
+        contribute to narrative pacing. Cartooning and other forms of illustration are the most common image-making
+        means in
+        comics; fumetti is a form that uses photographic images. Common forms include comic strips, editorial and gag
+        cartoons,
+        and comic books. Since the late 20th century, bound volumes such as graphic novels, comic albums, and tankōbon
+        have
+        become increasingly common, while online webcomics have proliferated in the 21st century.</p>
+
+
+      <h2>Types of Comics</h2>
+
+      <p>
+
+        These are a few predominate types of comic book types:
+        <a href="https://library.triton.edu/c.php?g=1107468&p=8074763">(Explore all the Types Here)</a>
+
+        Superhero
+        Slice-of-Life
+        Humor
+        Non-fiction
+        Science-Fiction/Fantasy
+        Horror
+
+        As the gap between graphic novels and comics grows smaller it becomes harder to determine which is which outside
+        of who publishes and what it is directly called on the book.
+      </p>
+
+      <h2>Where to buy Comics?</h2>
+      <p>
+        Nowadays, Every corner on the streets have comic books. But there are some special shops who only sell Comics.
+        And "Beleive me when I say it", they have all the best comics published till now.
+        <a href="https://www.google.ca/maps/search/comic+stores/@53.4480316,-113.5245838,11z/data=!3m1!4b1">Check
+          locally here</a>
+      </p>
+    </div>
+    <!-- /content end -->
+
+    <div data-role="footer">
+      <div class="ui-alt-icon">
+        <p>&copy; 2021 All Rights Reserved </p>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-fb ui-btn-icon-notext ui-btn-inline">facebook</a>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-t ui-btn-icon-notext ui-btn-inline">twitter</a>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-l ui-btn-icon-notext ui-btn-inline">linkedIn</a>
+      </div>
+    </div>
+    <!-- /footer end-->
+  </div>
+  <!-- /page end -->
+
+  <!-- Categories Page -->
+  <div data-role="page" id="categories" data-theme="b">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>Categories</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" data-role="button" data-transition="flip">Home</a></li>
+        <li><a href="#categories" data-role="button" class="ui-btn-active">Categories</a></li>
+        <li><a href="#marvel" data-role="button" data-transition="slide">Marvel</a></li>
+        <li><a href="#dc" data-role="button" data-transition="flow">DC</a></li>
+        <li><a href="#contact" data-role="button" data-transition="flip">Contact</a></li>
+      </ul>
+
+    </div>
+    <!--header end-->
+
+    <div role="main" class="ui-content" data-role="collapsibleset">
+      <h2>What are the different types of Comics ?</h2>
+      <p>These are a few predominate types of comic book types:<a
+          href="https://library.triton.edu/c.php?g=1107468&p=8074763">(Explore all the Types Here)</a><br>
+        <br>Superhero<br>
+        Slice-of-Life<br>
+        Humor<br>
+        Non-fiction<br>
+        Science-Fiction/Fantasy<br>
+        Horror<br>
+        </br>
+        As the gap between graphic novels and comics grows smaller it becomes harder to determine which is which outside
+        of who publishes and what it is directly called on the book.
+        Retro or Vintage Comic Books
+        Retro or vintage comic books are distinguishable by their bright covers, thin paper, common
+        use of Ben-Dots and cartoony style. When comic books first became popular they were not only
+        superhero comics; there are popular comics about Sabrina, Archie, crime, romance and more.
+        The superhero comics are the ones that have aged well over the years and with every new generation of
+        audience, the stories are appealing, the art captivating, and the length manageable enough for a quick and
+        satisfying read.
+
+      </p>
+      <ul data-role="listview" data-inset="true">
+        <li>
+          <img src="img/marvel.png" alt="marvel">
+          <h1>1. Marvel:</h1>
+          <p>
+            The precursor to Marvel Comics was founded in 1939 by pulp magazine publisher Martin Goodman. In order to
+            capitalize on the growing
+            popularity of comic books—especially those starring superheroes—Goodman created Timely Comics.
+          </p>
+        </li>
+
+        <!--content-->
+        <div data-role="collapsible">
+          <a href="#marvel" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto"
+              src="img/marvel.png" style="max-height: 248px;" alt="USA, CANADA"></a>
+          <div data-role="popup" id="marvel" data-overlay-theme="b" data-theme="b" data-corners="false">
+            <a href="#" data-rel="back"
+              class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img
+              class="popphoto" src="img/marvel.png" style="max-height:78px;" alt="USA, CANADA">
+          </div>
+          <h1>Expand</h1>
+          <p>
+            Timely’s first comic book was
+            Marvel Comics no. 1 (cover dated October 1939), which featured several superhero characters, most notably
+            the Human Torch and
+            the Sub-Mariner. Timely Comics introduced many superhero characters during comics’ “Golden Age” in the
+            1940s, most importantly
+            Captain America, who first appeared in Captain America Comics no. 1 (March 1941). Timely characters were
+            often portrayed as
+            fighting against the Nazis and the Japanese even before the United States entered World War II. As the 1940s
+            came to a close,
+            superheroes fell out of vogue with comic book readers, and Timely canceled the last of its books in this
+            genre in 1950. In 1951
+            Goodman formed his own distribution company, and Timely Comics became Atlas Magazines. Though there was a
+            brief experiment
+            in bringing back superheroes such as Captain America in 1953, Atlas’s output was mostly in other genres such
+            as humour,
+            westerns, horror, war, and science fiction.
+          </p>
+        </div>
+
+        <li>
+          <img src="img/DC.jpeg" alt="DC-universe" />
+          <h1>2. DC Universe:</h1>
+          <p>
+            The DC Universe (DCU) is the fictional shared universe where most stories in American comic book titles
+            published by DC Comics
+            take place.</p>
+        </li>
+        <div data-role="collapsible">
+          <img src="img/DC.jpeg" alt="DC-universe" style="max-height: 248px;" />
+          <h1>Expand</h1>
+          <p>
+            DC superheroes such as Superman, Batman, Wonder Woman, Martian Manhunter, The Flash, Green Lantern and
+            Aquaman
+            are from this universe, as well as teams such as the Justice League and the Teen Titans. It also contains
+            well-known
+            supervillains such as Lex Luthor, the Joker, Sinestro, Harley Quinn, Reverse-Flash, Darkseid, General Zod,
+            Penguin,
+            the Riddler, Catwoman, Ra’s al Ghul, Bane and Two-Face. In context, the term "DC Universe" usually refers to
+            the main
+            DC continuity. The term "DC Multiverse" refers to the collection of all continuities within DC Comics
+            publications.
+            Within the Multiverse, the main DC Universe has gone by many names, but in recent years has been referred to
+            by "Prime Earth" (not to be confused with "Earth Prime") or "Earth 0".</p>
+        </div>
+
+        <li>
+          <img src="img/dark-horses.png" alt="Dark-Horses" />
+          <h1>3. Dark Horse Comics:</h1>
+          <p>
+            Dark Horse first became known for its licensed properties: "Star Wars," "Aliens," "Predator," and others.
+          </p>
+        </li>
+        <div data-role="collapsible">
+          <img src="img/dark-horses.png" style="max-height: 248px;" alt="Dark-Horses" />
+          <h1>Expand</h1>
+          <p>
+            Dark Horse first became known for its licensed properties: "Star Wars," "Aliens," "Predator," and others.
+            Since then it has become well known for its creator-owned series: "Hellboy," "The Goon," "Sin City," "Groo,"
+            "The Umbrella Academy," and more. Dark Horse has also been a place for creators to keep their properties
+            going, with
+            Joss Whedon keeping his "Buffy" and "Firefly" ("Serenity") series alive through comics after the TV show was
+            canceled.
+            Great Dark Horse comics include Matt Kindt's "Mind MGMT," and "Bureau for Paranormal Research and Defense,"
+            an extension
+            of Mike Mignola's "Hellboy" universe.
+          </p>
+        </div>
+
+        <li>
+          <img src="img/valiant.png" alt="Valiant" />
+          <h1>4. Valiant Comics:</h1>
+          <p>
+            Valiant Comics launched in the early '90s as a new superhero universe for the modern era. Valiant was
+            started......
+          </p>
+        </li>
+        <div data-role="collapsible">
+          <img src="img/valiant.png" style="max-height: 248px;" alt="Valiant" />
+          <h1>Expand</h1>
+          <p>
+            in part by former Marvel Comics editor in chief Jim Shooter and prided itself on characters having grounded
+            superpowers and stories having airtight continuity, sometimes timing interactions down to the minute. The
+            '90s
+            launch success eventually faded, requiring Valiant to close its doors until a reboot in the summer of 2011.
+            Valiant has come back strong since that time, with flagship books such as "X-O Manowar," "Harbinger,"
+            and "Unity" delivering some of the strongest superhero comics on the market.
+
+          </p>
+        </div>
+      </ul>
+    </div>
+    <!-- /content end -->
+
+    <div data-role="footer">
+      <div class="ui-alt-icon">
+        <p>&copy; 2021 All Rights Reserved </p>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-fb ui-btn-icon-notext ui-btn-inline">facebook</a>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-t ui-btn-icon-notext ui-btn-inline">twitter</a>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-l ui-btn-icon-notext ui-btn-inline">linkedIn</a>
+      </div>
+    </div>
+    <!-- /footer end -->
+  </div>
+  <!-- /page end -->
+
+  <!-- Marvel Page  -->
+
+  <div data-role="page" id="marvel" data-theme="a">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>Marvel</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" data-role="button" data-transition="flip">Home</a></li>
+        <li><a href="#categories" data-role="button" data-transition="fade">Categories</a></li>
+        <li><a href="#marvel" data-role="button" class="ui-btn-active">Marvel</a></li>
+        <li><a href="#dc" data-role="button" data-transition="flow">DC</a></li>
+        <li><a href="#contact" data-role="button" data-transition="flip">Contact</a></li>
+      </ul>
+    </div>
+    <!--/header end-->
+
+    <div role="main" class="ui-content">
+      <section>
+        <h2>Marvel Comics.</h2>
+        <p>
+          The Marvel Universe got its start almost exactly 60 years ago in 1961, and the origins of some Marvel
+          characters (and the Marvel name) go back even further - 82 years to August 1939. In those decades since the
+          ‘House of Ideas’ is responsible for hundreds if not thousands of timeless tales that have become part of
+          the world’s modern mythology.</p>
+      </section>
+      <!--/content-->
+      <section>
+        <h2>Best Seller Comics</h2>
+        <h3><a
+            href="https://www.marvel.com/comics/series/30148/iron_man_2020_-_present?characterId=1009368&variants=true">Iron
+            Man</a><br>
+          <br> <img src="img/iron-man.jpg" style="max-height: 148px;" alt="iron-man">
+        </h3>
+        <p>
+          BIG IRON! Tony Stark is looking to restart his engine. He decides he’s going back to basics, putting away his
+          high-tech
+          toys and high-profile image so he can get his hands dirty again. It’s time to dig into the guts of real
+          machines, put on
+          some old-fashioned metal and fly. But can he really lay that Stark-sized ego down? Life isn’t that simple,
+          something that
+          old friends and frustrating foes are quick to point out. If you strip down a billionaire to his bolts, does he
+          run solid
+          or just overheat? Tony’s going to find out once a threat to the entire universe rears its head from the past.
+          As he
+          suits up again, Tony remains sure of one thing: he’s still IRON MAN down to his flesh and blood core </p>
+
+        <h3><a href="https://www.marvel.com/comics/issue/91821/marvel_action_spider-man_2020_1">Spider Man</a><br>
+          <br> <img src="img/Spiderman.jpg" style="max-height: 148px;" alt="spider-man">
+        </h3>
+        <p>
+          Get tangled up in these all-new adventures of Spider-Man and his amazing friends! Peter, Miles, and Gwen have
+          completed their
+          internships at the Daily Bugle-now they're all shook up over their latest foe! A Marvelous new era continues!
+        </p>
+
+        <h3><a href="https://www.marvel.com/comics/issue/91785/x-men_legends_2021_5">X-Man</a><br>
+          <br> <img src="img/x-man.jpg" style="max-height: 148px;" alt="X-man">
+        </h3>
+        <p>
+          PETER DAVID RETURNS TO PLACE A MISSING PIECE OF THE X-FACTOR PUZZLE! Mutants have taken hostages, and X-Factor
+          is taking the
+          blame! But before judgment is rendered for POLARIS, HAVOK, WOLFSBANE, STRONG GUY, QUICKSILVER and MADROX the
+          MULTIPLE MAN,
+          VAL COOPER and X-Factor will take the stand! But who’s telling the truth, and what really went down at the
+          LATVERIAN EMBASSY?
+          It all makes sense…from a certain point of view.Return to the fan-favorite era of Peter David’s X-FACTOR run
+          with an all-new
+          adventure set between X-FACTOR #75 and #76!
+        </p>
+
+        <h3><a href="https://www.marvel.com/comics/issue/67917/captain_america_2018_1">Captain America</a><br>
+          <br> <img src="img/captain.jpg" style="max-height: 148px;" alt="captain">
+        </h3>
+        <p>
+          IT IS WINTER IN AMERICA.For over 70 years, he has stood in stalwart defense of our country and its people.
+          But in the aftermath of Hydra's takeover of the nation, Captain America is a figure of controversy, carrying
+          a tarnished shield…and a new enemy is rising! Who are the Power Elite? And how do they intend to co-opt and
+          corrupt the symbol that is Captain America?
+        </p>
+      </section>
+    </div>
+    <!-- /content end -->
+
+    <div data-role="footer">
+      <div class="ui-alt-icon">
+        <p>&copy; 2021 All Rights Reserved </p>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-fb ui-btn-icon-notext ui-btn-inline">facebook</a>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-t ui-btn-icon-notext ui-btn-inline">twitter</a>
+        <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-l ui-btn-icon-notext ui-btn-inline">linkedIn</a>
+      </div>
+    </div>
+    <!-- /footer end -->
+  </div>
+  <!-- /page end -->
+
+
+  <!-- DC Page  -->
+  <div data-role="page" id="dc" data-theme="b">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>DC Universe</h1>
+    </div>
+    <!-- /header -->
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" data-role="button" data-transition="flip">Home</a></li>
+        <li><a href="#categories" data-role="button" data-transition="fade">Categories</a></li>
+        <li><a href="#marvel" data-role="button" data-transition="slide">Marvel</a></li>
+        <li><a href="#dc" data-role="button" class="ui-btn-active">DC</a></li>
+        <li><a href="#contact" data-role="button" data-transition="flip">Contact</a></li>
+      </ul>
+    </div>
+    <!--/header end-->
+
+    <!--content-->
+    <div role="main" class="ui-content">
+      <h2>Best Seller Comics of DC universe</h2>
+
+      <h3><a
+          href="https://www.dccomics.com/comics/dc-comics-presents-2004/dc-comics-presents-superman-1">Superman</a><br>
+        <br> <img src="img/superman.png" style="max-width: 300px;" alt="superman">
+      </h3>
+      <p>
+        This tribute issue features the first Superman story ever written by legendary Marvel Comics legend Stan Lee!
+        Lee and Darwyn Cooke (DC: THE NEW FRONTIER) and the classic LEGION OF SUPER-HEROES team of Paul Levitz and
+        Keith Giffen each share stories inspired by the cover to SUPERMAN (original series) #264. </p>
+
+      <h3><a href="https://www.dccomics.com/comics/dc-comics-presents-2004/dc-comics-presents-superman-1">Batman</a><br>
+        <br> <img src="img/batman.png" style="max-width: 300px;" alt="Batman">
+      </h3>
+      <p>
+        Deep beneath Gotham City lies the Court of Owls' deadliest trap – and Batman has fallen right into it! Can
+        he escape, or will he perish in a maze of nightmare? Enter the labyrinth, Batman – if you dare! </p>
+      <!-- /content end-->
+
+      <div data-role="footer">
+        <div class="ui-alt-icon">
+          <p>&copy; 2021 All Rights Reserved </p>
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-fb ui-btn-icon-notext ui-btn-inline">facebook</a>
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-t ui-btn-icon-notext ui-btn-inline">twitter</a>
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-l ui-btn-icon-notext ui-btn-inline">linkedIn</a>
+        </div>
+      </div>
+      <!-- /footer end -->
+    </div>
+    <!-- /page end -->
+
+  </div>
+
+  <!-- About Us  -->
+  <div data-role="page" id="contact" data-theme="a">
+
+    <div data-role="header" data-add-back-btn="true">
+      <h1>Contact Us</h1>
+    </div>
+
+    <!-- /header -->
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" data-role="button" data-transition="flip">Home</a></li>
+        <li><a href="#categories" data-role="button" data-transition="fade">Categories</a></li>
+        <li><a href="#marvel" data-role="button" data-transition="slide">Marvel</a></li>
+        <li><a href="#dc" data-role="button" data-transition="flow">DC</a></li>
+        <li><a href="#contact" data-role="button">Contact</a></li>
+      </ul>
+
+    </div>
+    <!--/header end-->
+
+    <!--form start-->
+    <div role="main" class="ui-content">
+      <h1>Contact Form</h1>
+      <form action="">
+        <label for="name">Full Name</label>
+        <input type="text" name="text-basic" id="text-basic" value="">
+
+        <label for="email">Email</label>
+        <input type="email" name="text-basic" id="text-basic" value="">
+
+        <label for="age">Age</label>
+        <input type="number" name="number" pattern="[0-9]*" id="number-pattern" value="">
+
+        <label for="Message">Message</label>
+        <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+        <label for="Agree">Agree to terms & Conditions</label>
+        <select name="slider-flip-m" id="slider-flip-m" data-role="slider" data-mini="true">
+          <option value="off">No</option>
+          <option value="on" selected="">Yes</option>
+        </select>
+
+        <button class="ui-shadow ui-btn ui-corner-all">Submit</button>
+
+      </form>
+
+      <!-- /form end -->
+
+      <div data-role="footer">
+        <div class="ui-alt-icon">
+          <p>&copy; 2021 All Rights Reserved </p>
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-fb ui-btn-icon-notext ui-btn-inline">facebook</a>
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-t ui-btn-icon-notext ui-btn-inline">twitter</a>
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-l ui-btn-icon-notext ui-btn-inline">linkedIn</a>
+        </div>
+        <!-- /footer end -->
+      </div>
+      <!-- /page end -->
+    </div>
+  </div>
+</body>
+
+</html>

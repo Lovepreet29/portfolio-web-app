@@ -1,0 +1,15 @@
+/* FaceBook Icon */
+
+.ui-icon-fb:after {
+	background-image: url("img/facebook.svg");
+}
+
+/* Twitter Icon */
+.ui-icon-t:after {
+	background-image: url("img/twitter.svg");
+}
+
+/* LinkedIn Icon */
+.ui-icon-l:after {
+	background-image: url("img/linkedin.svg");
+}
